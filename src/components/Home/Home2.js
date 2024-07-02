@@ -1,49 +1,62 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import download from "../../Assets/download.jpg"; // Adjust the path relative to Home2.js
 
 function Home2() {
     return(
         <Container>
-             <Container fluid className="home-about-section" id="about">
+            <Container fluid className="home-about-section" id="about">
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="blue"> INTRODUCE </span> MYSELF
+              TECH STACK <span> </span> 
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
-              <br />
-              <br />I am fluent in classics like
+              Over 1+ years of professional experience as a software developer, specializing in &nbsp;
               <i>
-                <b className="blue"> C++, Javascript and Go. </b>
+                <b className="blue">C# and JavaScript  </b> and
+                for developing robust and scalable
+                enterprise applications{" "}
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              Proficient in utilizing &nbsp;
               <i>
-                <b className="blue">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="blue">
-                  Blockchain.
-                </b>
+                <b className="blue">React.js, .NET frameworks, and Java </b> and
+                for efficient task automation and application deployment{" "}
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="blue">Node.js</b> and
+              Extensive knowledge and hands-on experience in building web applications using &nbsp;
               <i>
-                <b className="blue">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
+                <b className="blue">React, .NET Core, RESTful Web Services, and Entity Frameworks</b> and
+                for seamless integration with backend systems.{" "}
               </i>
-              &nbsp; like
+              <br />
+              <br />
+              Skilled in utilizing cloud platforms such as &nbsp;
               <i>
-                <b className="blue"> React.js and Next.js</b>
+                <b className="blue">AWS and Azure </b> and
+                for efficient application management and deployment{" "}
               </i>
+              <br />
+              <br />
+              Demonstrated expertise in  &nbsp;
+              <i>
+                <b className="blue">machine learning, cloud computing, and data analysis</b> and
+                with a strong academic background and industryrecognized certifications.{" "}
+              </i>
+              <br />
             </p>
           </Col>
+          <Col md={4} className="text-center" style={{ paddingBottom: 100 }}>
+                    <img
+                        src={download}
+                        alt="home pic"
+                        className="img-fluid"
+                        style={{ maxHeight: "600px" }}
+                    />
+                </Col>
         </Row>
         </Container>
         </Container>
