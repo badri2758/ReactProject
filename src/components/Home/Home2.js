@@ -47,6 +47,27 @@ function Home2() {
                 with a strong academic background and industryrecognized certifications.{" "}
               </i>
               <br />
+              <br />
+              Demonstrated expertise in  &nbsp;
+              <i>
+                <b className="blue">machine learning, cloud computing, and data analysis</b> and
+                with a strong academic background and industryrecognized certifications.{" "}
+              </i>
+              <br />
+              <br />
+              Demonstrated expertise in  &nbsp;
+              <i>
+                <b className="blue">machine learning, cloud computing, and data analysis</b> and
+                with a strong academic background and industryrecognized certifications.{" "}
+              </i>
+              <br />
+              <br />
+              Demonstrated expertise in  &nbsp;
+              <i>
+                <b className="blue">machine learning, cloud computing, and data analysis</b> and
+                with a strong academic background and industryrecognized certifications.{" "}
+              </i>
+              <br />
             </p>
           </Col>
           <Col md={4} className="text-center" style={{ paddingBottom: 100 }}>
