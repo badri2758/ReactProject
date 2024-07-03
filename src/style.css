@@ -56,7 +56,7 @@ html {
   
   /* Track */
   ::-webkit-scrollbar-track {
-    background: #1b004d;
+    background: #efedf1;
   }
   
   /* Handle */
@@ -67,7 +67,7 @@ html {
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: rgba(222, 130, 235, 0.911);
+    background: rgba(241, 240, 241, 0.911);
     border-radius: 12px;
   }
   
@@ -101,7 +101,7 @@ html {
   
   .navbar-toggler span {
     display: block !important;
-    background-color: #be50f4 !important;
+    background-color:rgba(241, 240, 241, 0.911);
     height: 4px !important;
     width: 27px !important;
     margin-top: 5px !important;
@@ -324,6 +324,7 @@ html {
     padding-bottom: 70px !important;
     padding-top: 70px !important;
   }
+
   
   .home-about-description {
     color: black !important;
@@ -385,9 +386,9 @@ html {
   }
   
   .home-social-icons:hover {
-    color: #87209e;
-    box-shadow: 0 0 5px #87209e;
-    text-shadow: 0 0 2px #87209e;
+    color: rgba(241, 240, 241, 0.911);
+    box-shadow: 0 0 5px rgba(241, 240, 241, 0.911);
+    text-shadow: 0 0 2px rgba(241, 240, 241, 0.911);
   }
   
   .social-icons {
@@ -397,7 +398,7 @@ html {
   }
   
   .icon-colour {
-    color: #700c86 !important;
+    color:rgba(241, 240, 241, 0.911);
   }
   
   /* --------- */
@@ -446,7 +447,7 @@ html {
 }
 
 .blockquote-footer {
-  color: #a588c0 !important;
+  color:rgba(241, 240, 241, 0.911);
 }
 
   /* --------- */
@@ -468,9 +469,9 @@ html {
   }
   
   .project-card-view {
-    box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important;
-    color: white !important;
-    background-color: transparent !important;
+    box-shadow: 0 4px 5px 3px rgba(243, 243, 243, 0.459) !important;
+    color: black !important;
+    background-color: white !important;
     opacity: 0.9 !important;
     transition: all 0.5s ease 0s !important;
     height: 100% !important;
@@ -478,7 +479,7 @@ html {
   .project-card-view:hover {
     transform: scale(1.02) !important;
     overflow: hidden !important;
-    box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important;
+    box-shadow: 0 4px 4px 5px rgba(254, 251, 255, 0.561) !important;
   }
   
   .blog-card {
@@ -491,7 +492,7 @@ html {
   
   .blog-card-view {
     background-color: transparent !important;
-    box-shadow: 0 3px 3px 2px rgba(145, 77, 161, 0.459) !important;
+    box-shadow: 0 3px 3px 2px rgba(241, 240, 241, 0.911);
     color: white !important;
     transition: all 0.5s ease 0s !important;
     height: 100% !important;
@@ -509,7 +510,7 @@ html {
   .blog-card-view:hover {
     transform: scale(1.02) !important;
     overflow: hidden !important;
-    box-shadow: 0 3px 3px 5px rgba(155, 88, 173, 0.65) !important;
+    box-shadow: 0 3px 3px 5px rgba(241, 240, 241, 0.911);
   }
   
   .card-img-top {
@@ -526,14 +527,14 @@ html {
   
   .btn-primary {
     color: #fff !important;
-    background-color: #623686 !important;
-    border-color: #623686 !important;
+    background-color: rgb(50, 50, 179) !important;
+    border-color: black;
   }
   
   .btn-primary:hover {
     color: #fff !important;
-    background-color: #6d20c5d7 !important;
-    border-color: #6d20c5d7 !important;
+    background-color:blue !important;
+    border-color: BLUE;
   }
   .btn:focus {
     outline: none !important;
@@ -554,8 +555,11 @@ html {
     position: relative !important;
     padding-top: 150px !important;
     padding-bottom: 30px !important;
-    background-image: var(--section-background-color) !important;
-    color: white !important;
+    /* background-image: var(--section-background-color) !important; */
+    background-color: white;
+    color: black !important;
+
+    
   }
   
   .tech-icons {
@@ -563,7 +567,7 @@ html {
     margin: 15px !important;
     padding: 10px !important;
     opacity: 0.93 !important;
-    border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
+    border: 1.7px solid rgba(245, 241, 247, 0.637) !important;
     vertical-align: middle !important;
     text-align: center !important;
     border-radius: 5px !important;
@@ -582,7 +586,7 @@ html {
   .tech-icons:hover {
     transform: scale(1.05) !important;
     overflow: hidden !important;
-    border: 2.2px solid rgba(197, 115, 230, 0.883) !important;
+    border: 2.2px solid rgba(241, 240, 241, 0.911);
   }
   .tech-icon-images {
     padding: 20px !important;
@@ -653,14 +657,14 @@ html {
   .resume .resume-item {
     padding: 0 0 10px 25px;
     margin-top: -2px;
-    border-left: 2px solid #8a49a8;
+    border-left: 2px solid rgba(46, 79, 189, 0.911);
     position: relative;
   }
   
   .resume .resume-item .resume-title {
     line-height: 18px;
     font-size: 0.9em;
-    background: #5234795d;
+    background: #0f38be5d;
     padding: 8px 15px;
     display: inline-block;
     font-weight: 600;
@@ -690,7 +694,7 @@ html {
     left: -9px;
     top: 0;
     background: #fff;
-    border: 2px solid #8a49a8;
+    border: 2px solid #2413b9;
   }
   
   .like-item {
@@ -700,8 +704,8 @@ html {
   }
   
   .like-btn {
-    background-color: #934cce5e !important;
-    border-color: #934cce5e !important;
+    background-color:  #0d35eb86 !important;
+    border-color:  #0d35eb86 !important;
     padding: 0.25rem 0.98rem !important;
     border-radius: 5px !important;
     line-height: 1.4 !important;
@@ -710,8 +714,8 @@ html {
   
   .like-btn:hover {
     transform: translateY(-2px) !important;
-    background-color: #a24dd386 !important;
-    border-color: #a24dd386 !important;
+    background-color: #0d35eb86 !important;
+    border-color:  #0d35eb86 !important;
   }
   
   .animate-like {
@@ -735,7 +739,7 @@ html {
   
   .fork-btn-inner {
     line-height: 1.4em !important;
-    background-color: #934cce5e !important;
+    background-color:  #0d35eb86 !important;
     padding: 0.25rem 1.1rem !important;
     vertical-align: middle !important;
     text-align: center !important;
@@ -743,8 +747,8 @@ html {
   
   .fork-btn-inner:hover {
     transform: translateY(-2px) !important;
-    background-color: #a24dd386 !important;
-    border-color: #a24dd386 !important;
+    background-color:  #0d35eb86 !important;
+    border-color:  #0d35eb86 !important;
   }
   .fork-btn-inner::after {
     display: none !important;
